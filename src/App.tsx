@@ -1,4 +1,10 @@
+import data from "./data";
+import { decode, encode } from "./util";
+
 export default function App() {
+  const index = decode(data);
+  console.log("Is decode(data) equal to index?", encode(index) === data);
+  console.log("Index: ", index);
 
   return (
     <div className="dialog-container">

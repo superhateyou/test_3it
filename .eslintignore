@@ -1,0 +1,7 @@
+node_modules
+build
+dist
+*.js
+*.spec.ts
+vite.config.ts
+.eslintrc.js

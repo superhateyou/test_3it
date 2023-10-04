@@ -1,0 +1,8 @@
+{
+  "/**/*.{ts,tsx}": [
+    "eslint --fix",
+    "prettier --fix",
+    "git add"
+  ],
+  "src/**/*.scss": ["stylelint . --fix", "git add"]
+}
